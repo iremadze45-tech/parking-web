@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tbilisi Parking - სატრანსპორტო კომპანია</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Tbilisi Parking</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home">მთავარი</a>
+                <a href="#packages">პაკეტები</a>
+                <a href="#fines">ჯარიმები</a>
+                <a href="#contact">კონტაქტი</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section id="home" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 600\"><rect fill=\"%231e3a5f\" width=\"1200\" height=\"600\"/><text x=\"50%\" y=\"50%\" fill=\"white\" font-size=\"40\" text-anchor=\"middle\">პარკირება</text></svg>') center/cover;">
+                <div class="slide-content">
+                    <h2>უსაფრთხო პარკირება თბილისში</h2>
+                    <p>დატოვეთ თქვენი მანქანა უსაფრთხო ადგილზე</p>
+                    <a href="#packages" class="btn">პაკეტების ნახვა</a>
+                </div>
+            </div>
+            <div class="slide" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 600\"><rect fill=\"%232c5f8a\" width=\"1200\" height=\"600\"/><text x=\"50%\" y=\"50%\" fill=\"white\" font-size=\"40\" text-anchor=\"middle\">ტრანსპორტი</text></svg>') center/cover;">
+                <div class="slide-content">
+                    <h2>ტრანსპორტირების მომსახურება</h2>
+                    <p>სანდო და სწრაფი გადაყვანა</p>
+                    <a href="#contact" class="btn">დაგვიკავშირდით</a>
+                </div>
+            </div>
+            <div class="slide" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 600\"><rect fill=\"%234a90d9\" width=\"1200\" height=\"600\"/><text x=\"50%\" y=\"50%\" fill=\"white\" font-size=\"40\" text-anchor=\"middle">მომსახურება</text></svg>') center/cover;">
+                <div class="slide-content">
+                    <h2>24/7 მომსახურება</h2>
+                    <p>ყოველთვის თქვენს გვერდით</p>
+                    <a href="#fines" class="btn">ჯარიმების შემოწმება</a>
+                </div>
+            </div>
+            <button class="slider-btn prev">&#10094;</button>
+            <button class="slider-btn next">&#10095;</button>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parking Packages -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">პარკირების პაკეტები</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>საათიანი</h3>
+                    </div>
+                    <div class="package-price">
+                        <span class="price">2₾</span>
+                        <span class="period">/საათი</span>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ უსაფრთხო ტერიტორია</li>
+                        <li>✓ 24/7 მეთვალყურეობა</li>
+                        <li>✓ მოსახერხებელი მდებარეობა</li>
+                    </ul>
+                    <button class="btn btn-package">არჩევა</button>
+                </div>
+                <div class="package-card featured">
+                    <div class="package-badge">პოპულარული</div>
+                    <div class="package-header">
+                        <h3>დღიური</h3>
+                    </div>
+                    <div class="package-price">
+                        <span class="price">15₾</span>
+                        <span class="period">/დღე</span>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ უსაფრთხო ტერიტორია</li>
+                        <li>✓ 24/7 მეთვალყურეობა</li>
+                        <li>✓ მოსახერხებელი მდებარეობა</li>
+                        <li>✓ დამატებითი მომსახურება</li>
+                    </ul>
+                    <button class="btn btn-package">არჩევა</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>თვიური</h3>
+                    </div>
+                    <div class="package-price">
+                        <span class="price">150₾</span>
+                        <span class="period">/თვე</span>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ უსაფრთხო ტერიტორია</li>
+                        <li>✓ 24/7 მეთვალყურეობა</li>
+                        <li>✓ მოსახერხებელი მდებარეობა</li>
+                        <li>✓ დამატებითი მომსახურება</li>
+                        <li>✓ პირადი ადგილი</li>
+                    </ul>
+                    <button class="btn btn-package">არჩევა</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fines Section -->
+    <section id="fines" class="fines">
+        <div class="container">
+            <h2 class="section-title">ჯარიმების შემოწმება</h2>
+            <div class="fines-container">
+                <div class="fines-form">
+                    <h3>შეამოწმეთ თქვენი ჯარიმა</h3>
+                    <form id="finesForm">
+                        <div class="form-group">
+                            <label for="plateNumber">სანომრე ნიშანი</label>
+                            <input type="text" id="plateNumber" placeholder="მაგ: AA-001-AA" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="vinNumber">VIN ნომერი</label>
+                            <input type="text" id="vinNumber" placeholder="შეიყვანეთ VIN ნომერი">
+                        </div>
+                        <button type="submit" class="btn btn-search">შემოწმება</button>
+                    </form>
+                    <div id="finesResult" class="fines-result"></div>
+                </div>
+                <div class="fines-info">
+                    <h3>ჯარიმების ინფორმაცია</h3>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">&#9888;</div>
+                            <h4>გადაუხდელი ჯარიმები</h4>
+                            <p>ჯარიმის გადაუხდელობის შემთხვევაში გიწევთ დამატებითი საურავი.</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">&#128337;</div>
+                            <h4>გადახდის ვადა</h4>
+                            <p>ჯარიმა უნდა გადაიხადოთ 30 დღის ვადაში.</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">&#128179;</div>
+                            <h4>ონლაინ გადახდა</h4>
+                            <p>შეგიძლიათ გადაიხადოთ ბარათით ან ელექტრონული საფულით.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tbilisi Parking</h3>
+                    <p>უსაფრთხო და მოსახერხებელი პარკირება თბილისში</p>
+                </div>
+                <div class="footer-section">
+                    <h3>კონტაქტი</h3>
+                    <p>&#128222; +995 32 2 123 456</p>
+                    <p>&#9993; info@tbilisiparking.ge</p>
+                    <p>&#128205; თბილისი, საქართველო</p>
+                </div>
+                <div class="footer-section">
+                    <h3>სამუშაო საათები</h3>
+                    <p>ორშაბათი - პარასკევი: 09:00 - 18:00</p>
+                    <p>შაბათი - კვირა: 10:00 - 16:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tbilisi Parking. ყველა უფლება დაცულია.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
