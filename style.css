@@ -389,29 +389,225 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .header .container {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .nav a {
-        margin-left: 1rem;
+@media (max-width: 1024px) {
+    .slider-container {
+        height: 500px;
     }
 
     .slide-content h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .slide-content p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+    }
+
+    .packages-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
     .fines-container {
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0.8rem 0;
+    }
+
+    .header .container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .nav a {
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .hero-slider {
+        margin-top: 90px;
+    }
+
+    .slider-container {
+        height: 400px;
+    }
+
+    .slide-content {
+        padding: 0 1.5rem;
+    }
+
+    .slide-content h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .slide-content p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .slider-btn {
+        padding: 0.7rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .slider-btn.prev {
+        left: 10px;
+    }
+
+    .slider-btn.next {
+        right: 10px;
+    }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .packages {
+        padding: 3rem 0;
+    }
 
     .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .package-card {
+        padding: 1.5rem;
+    }
+
+    .package-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        font-size: 2.5rem;
+    }
+
+    .fines {
+        padding: 3rem 0;
+    }
+
+    .fines-form {
+        padding: 1.5rem;
+    }
+
+    .fines-form h3 {
+        font-size: 1.3rem;
+    }
+
+    .info-card {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-icon {
+        font-size: 2.5rem;
+    }
+
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 0.5rem 0;
+    }
+
+    .logo h1 {
+        font-size: 1.3rem;
+    }
+
+    .nav a {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    .hero-slider {
+        margin-top: 80px;
+    }
+
+    .slider-container {
+        height: 350px;
+    }
+
+    .slide-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .slide-content p {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .package-card {
+        padding: 1.2rem;
+    }
+
+    .price {
         font-size: 2rem;
+    }
+
+    .period {
+        font-size: 1rem;
+    }
+
+    .form-group input {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .slider-btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .slider-btn.prev {
+        left: 5px;
+    }
+
+    .slider-btn.next {
+        right: 5px;
     }
 }
